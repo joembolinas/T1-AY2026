@@ -1,4 +1,4 @@
-# MO-IT104 COMPUTER NETWORKS - COURSE ACTIVITY LOG
+# MO-IT106 DATA ANALYTICS FUNDAMENTALS - COURSE ACTIVITY LOG
 # Complete Academic Journey Documentation - T1-AY2026
 
 ## QUICK ENTRY TEMPLATES (Copy these when needed)
@@ -15,11 +15,16 @@
 # [TIMESTAMP] | CHALLENGE | [AREA] | [difficulty encountered] | OBSTACLE
 # [TIMESTAMP] | SOLUTION | [AREA] | [how problem was solved] | RESOLVED
 
-### Lab Work
-# [TIMESTAMP] | LAB | [LAB_NAME] | [activity description] | IN_PROGRESS/COMPLETED
-# [TIMESTAMP] | SIMULATION | [TOOL] | [simulation work] | COMPLETED
-# [TIMESTAMP] | TROUBLESHOOT | [ISSUE] | [problem and solution] | RESOLVED
-# [TIMESTAMP] | CONFIG | [DEVICE] | [configuration change] | COMPLETED
+### Data Analysis Work
+# [TIMESTAMP] | ANALYSIS | [DATASET_NAME] | [activity description] | IN_PROGRESS/COMPLETED
+# [TIMESTAMP] | VISUALIZATION | [TOOL] | [chart/graph creation] | COMPLETED
+# [TIMESTAMP] | STATISTICS | [CONCEPT] | [statistical analysis performed] | COMPLETED
+# [TIMESTAMP] | CODING | [LANGUAGE] | [programming work] | IN_PROGRESS/COMPLETED
+
+### Tools and Software
+# [TIMESTAMP] | TOOL | [TOOL_NAME] | [learning/usage activity] | PROGRESS/COMPLETED
+# [TIMESTAMP] | DATASET | [DATA_SOURCE] | [data collection/preparation] | COMPLETED
+# [TIMESTAMP] | PROJECT | [PROJECT_NAME] | [project milestone] | IN_PROGRESS/COMPLETED
 
 ### Academic Progress
 # [TIMESTAMP] | ASSIGNMENT | [NAME] | [progress status] | IN_PROGRESS/COMPLETED
@@ -36,25 +41,25 @@
 ================================================================================
 
 # COURSE INITIALIZATION - SESSION 1724725800
-[1724725800] | COURSE | INIT | MO-IT104 Computer Networks logging system initialized | STARTED
+[1724725800] | COURSE | INIT | MO-IT106 Data Analytics Fundamentals logging system initialized | STARTED
 [1724725801] | COURSE | SETUP | Academic logging system deployed for comprehensive learning tracking | COMPLETED
-[1724725802] | GOAL | SEMESTER | Master network fundamentals, protocols, and practical configuration skills | PLANNED
+[1724725802] | GOAL | SEMESTER | Master data analysis techniques, statistical concepts, and visualization skills | PLANNED
 [1724725803] | GOAL | SEMESTER | Achieve A- or better grade through systematic study and documentation | PLANNED
 [1724725804] | PLAN | APPROACH | Use daily logging to track progress, identify challenges, document breakthroughs | PLANNED
 
 ================================================================================
 
 # COURSE OVERVIEW AND EXPECTATIONS
-[1724725805] | COURSE | SCOPE | Topics: OSI model, TCP/IP, routing, switching, network security | NOTED
-[1724725806] | COURSE | MATERIALS | Textbook, lab access, Packet Tracer software, online resources | NOTED
-[1724725807] | COURSE | ASSESSMENT | Quizzes, midterm, final exam, lab reports, network design project | NOTED
+[1724725805] | COURSE | SCOPE | Topics: descriptive statistics, data visualization, Excel, basic programming, data interpretation | NOTED
+[1724725806] | COURSE | MATERIALS | Textbook, Excel software, datasets, online analytics tools, statistical resources | NOTED
+[1724725807] | COURSE | ASSESSMENT | Quizzes, data analysis projects, statistical reports, final portfolio | NOTED
 [1724725808] | COURSE | TIMELINE | 12-week semester from August through December 2025 | NOTED
 
 ================================================================================
 
 # WEEK 1 ACTIVITIES AND GOALS
-[1724725810] | PLAN | WEEK_1 | Focus: Course introduction, networking fundamentals, OSI model | PLANNED
-[1724725811] | GOAL | WEEK_1 | Complete syllabus review, set up lab environment, begin Chapter 1 | PLANNED
+[1724725810] | PLAN | WEEK_1 | Focus: Course introduction, data fundamentals, basic statistics concepts | PLANNED
+[1724725811] | GOAL | WEEK_1 | Complete syllabus review, set up Excel environment, begin statistical basics | PLANNED
 [1724725812] | SCHEDULE | WEEK_1 | Study sessions: Mon/Wed/Fri 2 hours, Tue/Thu 1 hour | PLANNED
 
 ================================================================================
@@ -62,36 +67,36 @@
 # LOGGING SYSTEM FEATURES AVAILABLE
 
 ## Automated Scripts:
-# PowerShell: .\logging-system\scripts\course-log.ps1 -Type "STUDY" -Topic "TCP_IP" -Description "Protocol analysis" -Status "PROGRESS"
-# Batch: .\logging-system\scripts\study-entry.bat "LAB" "WIRESHARK" "Packet analysis completed" "COMPLETED"
+# PowerShell: .\logging-system\scripts\analytics-log.ps1 -Type "ANALYSIS" -Topic "SALES_DATA" -Description "Descriptive statistics" -Status "PROGRESS"
+# Batch: .\logging-system\scripts\analytics-entry.bat "VISUALIZATION" "EXCEL_CHARTS" "Created pivot charts" "COMPLETED"
 
 ## VS Code Snippets (if configured):
-# netlog + Tab = Quick log entry with dropdowns
-# netstudy + Tab = Study session start template
-# netlab + Tab = Lab documentation template
-# netconcept + Tab = Concept learning template
+# analyticslog + Tab = Quick log entry with dropdowns
+# analyticsstudy + Tab = Study session start template
+# analyticsproject + Tab = Project documentation template
+# analyticsconcept + Tab = Concept learning template
 
 ## Templates Available:
 # Daily Study: logging-system/templates/DAILY_STUDY_TEMPLATES.md
 # Weekly Review: logging-system/templates/WEEKLY_REVIEW_TEMPLATE.md
-# Lab Sessions: logging-system/templates/LAB_SESSION_TEMPLATE.md
+# Project Sessions: logging-system/templates/PROJECT_SESSION_TEMPLATE.md
 # Assignment Tracking: logging-system/templates/ASSIGNMENT_TRACKING.md
 # Exam Preparation: logging-system/templates/EXAM_PREP_TEMPLATE.md
 
 ================================================================================
 
-# READY TO BEGIN COMPUTER NETWORKS JOURNEY!
+# READY TO BEGIN DATA ANALYTICS JOURNEY!
 
 # Next Actions:
 # 1. Start daily study sessions with morning goal-setting
-# 2. Document all lab exercises with detailed procedures
+# 2. Document all data analysis exercises with detailed procedures
 # 3. Track assignment progress from planning through submission
 # 4. Conduct weekly reviews every Sunday evening
 # 5. Use system for exam preparation and performance analysis
 
 # Success Metrics:
 # - Consistent daily logging (target: 80% of study sessions)
-# - Clear documentation of all lab work and results
+# - Clear documentation of all analysis work and results
 # - Systematic assignment tracking with time management
 # - Weekly progress reviews with goal adjustment
 # - Comprehensive exam preparation with practice tracking
@@ -100,18 +105,19 @@
 
 # LOG ENTRY GUIDELINES:
 
-## Entry Types for Computer Networks:
+## Entry Types for Data Analytics:
 # STUDY - Reading, research, concept review
 # LECTURE - Class attendance, notes, key points
-# LAB - Hands-on exercises, simulations, configurations
-# ASSIGNMENT - Homework, projects, reports
+# ANALYSIS - Data analysis work, statistical calculations
+# VISUALIZATION - Charts, graphs, dashboard creation
+# PROJECT - Major assignments, portfolio work
+# ASSIGNMENT - Homework, reports, exercises
 # QUIZ/EXAM - Preparation, performance, analysis
 # CONCEPT - New understanding, breakthroughs
-# PROTOCOL - Specific protocol learning
-# TOOL - Software/hardware skill development
-# SIMULATION - Packet Tracer, network modeling
-# TROUBLESHOOT - Problem-solving, debugging
-# CONFIG - Device/software configuration
+# STATISTICS - Statistical method learning
+# TOOL - Software skill development (Excel, R, Python)
+# DATASET - Data collection, cleaning, preparation
+# CODING - Programming work (if applicable)
 # PROGRESS - Weekly/milestone advancement
 # CHALLENGE - Difficulties, obstacles
 # BREAKTHROUGH - "Aha!" moments, clarity
@@ -132,6 +138,7 @@
 # NOTED - Information recorded
 # STARTED - Initial activity
 # PROGRESS - Advancement made
+# ANALYZED - Analysis completed
 
 ================================================================================
 
@@ -143,27 +150,3 @@
 # 3. Problem Solving - Record challenges and solutions
 # 4. Performance Analysis - Correlate effort with results
 # 5. Portfolio Development - Build technical documentation skills
-
-================================================================================
-
-# WEEK 1 PRACTICE EXAM CREATION - SESSION 1723843200
-[1723843200] | STUDY | WEEK1_REVIEW | Started creating practice exam questions from Week 1 source materials | STARTED
-[1723843201] | REVIEW | WEEK1_SOURCES | Analyzed course introduction, networking trends, and business case studies | COMPLETED
-[1723843202] | STUDY | PRACTICE_EXAM | Created 10-question practice exam covering networking fundamentals | COMPLETED
-[1723843203] | OUTPUT | WEEK1_EXAM | Generated comprehensive practice exam with model answers (30 points total) | COMPLETED
-[1723843204] | CONCEPT | EXAM_DESIGN | Learned to create balanced assessment with multiple choice, short answer, and essays | BREAKTHROUGH
-[1723843205] | GOAL | STUDY_PREP | Practice exams will help reinforce learning and prepare for actual assessments | PLANNED
-# 6. Career Preparation - Create interview-ready examples
-# 7. Continuous Improvement - Identify effective study methods
-
-# Remember: Every entry today becomes a story you can tell tomorrow!
-# Document your Computer Networks learning journey comprehensively! 🚀
-
-================================================================================
-[1755350202] | COURSE | SCRIPT_TEST | Testing script with proper quotes | COMPLETED
-[1755350221] | COURSE | FIXED_SCRIPT | PowerShell script is now working properly | COMPLETED
-[1755350231] | COURSE | HELP | Show examples | NOTED
-[1755350280] | COURSE | TERMINAL_FIXED | PowerShell terminal and logging system fully operational | COMPLETED
-[1755351703] | CONFIG | MCP_SETUP | Updated MCP configuration to use new GitHub server ghcr.io/github/github-mcp-server | COMPLETED
-[1755352582] | COURSE | TEMPLATES | Created activity-log and copilot instruction templates for all three courses | COMPLETED
-[1755352832] | COURSE | SISTER_COURSES | Successfully moved template files to MO-IT106 and MO-SS033 directories | COMPLETED
