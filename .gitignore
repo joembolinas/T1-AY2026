@@ -9,3 +9,5 @@ SYLLABUS.md
 
 # Ignore all SOURCE folders and their contents
 **/SOURCE/
+
+/net-commander
