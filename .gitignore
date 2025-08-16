@@ -1,0 +1,11 @@
+# Visual Studio Code
+.vscode/
+.history/
+.logging-system/
+.FORMAT/
+
+
+SYLLABUS.md
+
+# Ignore all SOURCE folders and their contents
+**/SOURCE/
