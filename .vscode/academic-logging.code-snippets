@@ -1,0 +1,156 @@
+{
+  "Academic Log Entry - Universal": {
+    "prefix": "academiclog",
+    "body": [
+      "[${1:timestamp}] | ${2|STUDY,LECTURE,LAB,PROJECT,ASSIGNMENT,QUIZ,EXAM,ANALYSIS,RESEARCH,ESSAY,DISCUSSION,CONCEPT,TOOL,CODING,VISUALIZATION,CURRENT_EVENTS,STATISTICS,PROTOCOL,SIMULATION,PROGRESS,CHALLENGE,BREAKTHROUGH,INSIGHT,REFLECTION,GOAL,PLAN,COURSE|} | ${3:TOPIC} | ${4:description} | ${5|PLANNED,IN_PROGRESS,COMPLETED,RESOLVED,OBSTACLE,INVESTIGATING,BREAKTHROUGH,POSITIVE,NOTED,STARTED,PROGRESS,ANALYZED,EVALUATED|}"
+    ],
+    "description": "Universal academic log entry for all courses"
+  },
+
+  "Computer Networks Log Entry": {
+    "prefix": "netlog",
+    "body": [
+      "[${1:timestamp}] | ${2|STUDY,LECTURE,LAB,ASSIGNMENT,QUIZ,EXAM,CONCEPT,PROTOCOL,TOOL,SIMULATION,TROUBLESHOOT,CONFIG,PROGRESS,CHALLENGE,BREAKTHROUGH,REVIEW,REFLECTION,GOAL,PLAN|} | ${3:TOPIC} | ${4:description} | ${5|PLANNED,IN_PROGRESS,COMPLETED,RESOLVED,OBSTACLE,INVESTIGATING,BREAKTHROUGH,POSITIVE,NOTED,STARTED,PROGRESS|}"
+    ],
+    "description": "Computer Networks specific log entry"
+  },
+
+  "Data Analytics Log Entry": {
+    "prefix": "datalog",
+    "body": [
+      "[${1:timestamp}] | ${2|STUDY,LECTURE,PROJECT,ASSIGNMENT,QUIZ,EXAM,ANALYSIS,VISUALIZATION,TOOL,DATASET,STATISTICS,CODING,PROGRESS,CHALLENGE,BREAKTHROUGH,INSIGHT,REFLECTION,GOAL,PLAN|} | ${3:TOPIC} | ${4:description} | ${5|PLANNED,IN_PROGRESS,COMPLETED,RESOLVED,OBSTACLE,INVESTIGATING,BREAKTHROUGH,POSITIVE,NOTED,STARTED,PROGRESS,ANALYZED|}"
+    ],
+    "description": "Data Analytics specific log entry"
+  },
+
+  "Global Studies Log Entry": {
+    "prefix": "globallog",
+    "body": [
+      "[${1:timestamp}] | ${2|STUDY,LECTURE,RESEARCH,ESSAY,DISCUSSION,EXAM,ANALYSIS,PERSPECTIVE,CURRENT_EVENTS,DEBATE,SYNTHESIS,EVALUATION,PROGRESS,CHALLENGE,BREAKTHROUGH,INSIGHT,REFLECTION,GOAL,PLAN|} | ${3:TOPIC} | ${4:description} | ${5|PLANNED,IN_PROGRESS,COMPLETED,RESOLVED,OBSTACLE,INVESTIGATING,BREAKTHROUGH,POSITIVE,NOTED,STARTED,PROGRESS,ANALYZED,EVALUATED|}"
+    ],
+    "description": "Global Studies specific log entry"
+  },
+
+  "Study Session Start - All Courses": {
+    "prefix": "studystart",
+    "body": [
+      "[${1:timestamp}] | STUDY | SESSION_START | Focus: ${2:today's topic focus} | PLANNED",
+      "[${3:timestamp}] | GOAL | TODAY | ${4:specific learning objectives} | PLANNED"
+    ],
+    "description": "Start study session template for any course"
+  },
+
+  "Study Session End - All Courses": {
+    "prefix": "studyend",
+    "body": [
+      "[${1:timestamp}] | STUDY | SESSION_END | Completed: ${2:accomplishments} | COMPLETED",
+      "[${3:timestamp}] | REFLECTION | PROGRESS | ${4:how you feel about progress} | ${5|POSITIVE,NOTED,BREAKTHROUGH|}",
+      "[${6:timestamp}] | PLAN | NEXT_SESSION | ${7:next focus area} | PLANNED"
+    ],
+    "description": "End study session template for any course"
+  },
+
+  "Computer Networks Lab": {
+    "prefix": "netlab",
+    "body": [
+      "[${1:timestamp}] | LAB | ${2:LAB_NAME} | ${3:lab activity description} | ${4|STARTED,IN_PROGRESS,COMPLETED|}",
+      "[${5:timestamp}] | CONFIG | ${6:DEVICE/SOFTWARE} | ${7:configuration details} | ${8|COMPLETED,IN_PROGRESS|}"
+    ],
+    "description": "Computer Networks lab documentation"
+  },
+
+  "Data Analytics Analysis": {
+    "prefix": "dataanalysis",
+    "body": [
+      "[${1:timestamp}] | ANALYSIS | ${2:DATASET/TOPIC} | ${3:analysis description} | ${4|STARTED,IN_PROGRESS,COMPLETED|}",
+      "[${5:timestamp}] | INSIGHT | ${6:FINDING} | ${7:key insight discovered} | BREAKTHROUGH"
+    ],
+    "description": "Data Analytics analysis session"
+  },
+
+  "Data Visualization": {
+    "prefix": "dataviz",
+    "body": [
+      "[${1:timestamp}] | VISUALIZATION | ${2:CHART_TYPE} | ${3:visualization description} | ${4|PLANNED,IN_PROGRESS,COMPLETED|}",
+      "[${5:timestamp}] | TOOL | ${6:SOFTWARE} | ${7:tool usage and features} | PROGRESS"
+    ],
+    "description": "Data visualization documentation"
+  },
+
+  "Global Studies Research": {
+    "prefix": "globalresearch",
+    "body": [
+      "[${1:timestamp}] | RESEARCH | ${2:TOPIC} | ${3:research activity} | ${4|STARTED,IN_PROGRESS,COMPLETED|}",
+      "[${5:timestamp}] | EVALUATION | ${6:SOURCE} | ${7:source credibility assessment} | EVALUATED"
+    ],
+    "description": "Global Studies research documentation"
+  },
+
+  "Global Studies Current Events": {
+    "prefix": "globalnews",
+    "body": [
+      "[${1:timestamp}] | CURRENT_EVENTS | ${2:EVENT/ISSUE} | ${3:event analysis} | ${4|NOTED,ANALYZED|}",
+      "[${5:timestamp}] | PERSPECTIVE | ${6:VIEWPOINT} | ${7:multiple perspective consideration} | EVALUATED"
+    ],
+    "description": "Current events analysis for Global Studies"
+  },
+
+  "Assignment Progress - All Courses": {
+    "prefix": "assignment",
+    "body": [
+      "[${1:timestamp}] | ASSIGNMENT | ${2:ASSIGNMENT_NAME} | ${3:progress description} | ${4|PLANNED,IN_PROGRESS,COMPLETED|}",
+      "[${5:timestamp}] | PROGRESS | ${6:MILESTONE} | ${7:milestone achieved} | COMPLETED"
+    ],
+    "description": "Assignment progress tracking for any course"
+  },
+
+  "Challenge and Solution - All Courses": {
+    "prefix": "challenge",
+    "body": [
+      "[${1:timestamp}] | CHALLENGE | ${2:PROBLEM_AREA} | ${3:difficulty description} | OBSTACLE",
+      "[${4:timestamp}] | TROUBLESHOOT | ${5:INVESTIGATION} | ${6:investigation process} | INVESTIGATING",
+      "[${7:timestamp}] | BREAKTHROUGH | ${8:SOLUTION} | ${9:solution found} | RESOLVED"
+    ],
+    "description": "Challenge and solution documentation"
+  },
+
+  "Weekly Review - All Courses": {
+    "prefix": "weeklyreview",
+    "body": [
+      "",
+      "# WEEKLY REVIEW: Week ${1:number} - ${2:date_range}",
+      "[${3:timestamp}] | REVIEW | WEEK_${4:number} | Accomplishments: ${5:what was completed} | COMPLETED",
+      "[${6:timestamp}] | REFLECTION | WEEK_${7:number} | Understanding: ${8:concepts mastered} | NOTED",
+      "[${9:timestamp}] | CHALLENGE | WEEK_${10:number} | Difficulties: ${11:areas needing work} | IDENTIFIED",
+      "[${12:timestamp}] | PLAN | WEEK_${13:next_number} | Focus: ${14:next week priorities} | PLANNED"
+    ],
+    "description": "Weekly review template for any course"
+  },
+
+  "Concept Learning - All Courses": {
+    "prefix": "concept",
+    "body": [
+      "[${1:timestamp}] | CONCEPT | ${2:TOPIC} | ${3:understanding gained} | BREAKTHROUGH",
+      "[${4:timestamp}] | REFLECTION | ${5:LEARNING} | ${6:how this connects to other concepts} | NOTED"
+    ],
+    "description": "Concept learning and understanding documentation"
+  },
+
+  "Tool Mastery - Technical Courses": {
+    "prefix": "toolmastery",
+    "body": [
+      "[${1:timestamp}] | TOOL | ${2:SOFTWARE/HARDWARE} | ${3:skill developed} | PROGRESS",
+      "[${4:timestamp}] | BREAKTHROUGH | ${5:CAPABILITY} | ${6:new capability achieved} | BREAKTHROUGH"
+    ],
+    "description": "Tool and software skill development"
+  },
+
+  "Quiz/Exam Preparation": {
+    "prefix": "examprep",
+    "body": [
+      "[${1:timestamp}] | EXAM | ${2:EXAM_NAME} | Preparation: ${3:study activity} | ${4|PLANNED,IN_PROGRESS|}",
+      "[${5:timestamp}] | REVIEW | ${6:TOPIC} | ${7:review activity completed} | COMPLETED"
+    ],
+    "description": "Quiz and exam preparation tracking"
+  }
+}
